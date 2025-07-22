@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Relatório - Experiência com Flexbox</title>
+  <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+  <header>
+    <h1>Relatório da Experiência com Flexbox</h1>
+    <p><strong>Nome completo:</strong> Jera Iosp</p>
+  </header>
+
+  <section>
+    <h2>Jogos Escolhidos</h2>
+    <ul>
+      <li>
+        <strong>Flexbox Adventure</strong><br>
+        <a href="https://codingfantasy.com/games/flexboxadventure/play" target="_blank">https://codingfantasy.com/games/flexboxadventure/play</a><br>
+        <em>Justificativa:</em> Escolhi esse jogo por ser dinâmico e divertido, com uma abordagem visual que facilita o aprendizado prático do Flexbox.
+      </li>
+      <li>
+        <strong>Flexbox Froggy</strong><br>
+        <a href="https://flexboxfroggy.com/" target="_blank">https://flexboxfroggy.com/</a><br>
+        <em>Justificativa:</em> Esse jogo oferece desafios progressivos e ensina de forma leve os principais comandos do Flexbox.
+      </li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Registro de Níveis</h2>
+
+    <h3>Flexbox Adventure</h3>
+    <figure>
+      <img src="imgs/flexboxadventure_nivel3.png" alt="Desafio 1">
+      <figcaption>Nível 3: Foi desafiador posicionar os elementos no eixo x corretamente.</figcaption>
+    </figure>
+    <figure>
+      <img src="imgs/flexboxadventure_nivel10.png" alt="Desafio 2">
+      <figcaption>Nível 10: O uso combinado de `flex-direction` me confundiu bastante.</figcaption>
+    </figure>
+    <figure>
+      <img src="imgs/flexboxadventure_nivel4.png" alt="Desafio 3">
+      <figcaption>Nível 4: Tive que usar um comando que eu nao sabia, o que exigiu mais atenção.</figcaption>
+    </figure>
+
+    <h3>Flexbox Froggy</h3>
+    <figure>
+      <img src="imgs/flexboxfroggy_nivel4.png" alt="Desafio 1">
+      <figcaption>Nível 10: Foi difícil deixar os sapinhos no canto.</figcaption>
+    </figure>
+    <figure>
+      <img src="imgs/flexboxfroggy_nivel4.png" alt="Desafio 2">
+      <figcaption>Nível 18: foi dificil ultilizar o justify-contentendconfundiu inicialmente.</figcaption>
+    </figure>
+    <figure>
+      <img src="imgs/flexboxfroggy_nivel3.png" alt="Desafio 3">
+      <figcaption>Nível 24: Esse foi o mais complexo por combinar quase todas as propriedades aprendidas.</figcaption>
+    </figure>
+  </section>
+
+  <section>
+    <h2>Reflexão e Aplicação Prática</h2>
+
+    <h3>Propriedades CSS utilizadas</h3>
+    <ul>
+      <li><code>display: flex;</code> – Define um contêiner flexível.</li>
+      <li><code>flex-direction</code> – Define a direção dos itens (linha ou coluna).</li>
+      <li><code>justify-content</code> – Alinha os itens no eixo principal.</li>
+      <li><code>align-items</code> – Alinha os itens no eixo transversal.</li>
+      <li><code>flex-wrap</code> – Controla se os itens devem quebrar linha.</li>
+      <li><code>align-self</code> – Alinha um item individual de forma diferente dos outros.</li>
+    </ul>
+
+    <h3>Aplicação prática com Flexbox</h3>
+    <p>Se eu fosse criar uma <strong>galeria de fotos responsiva</strong>, usaria Flexbox para alinhar as imagens lado a lado em telas grandes, e empilhá-las em telas pequenas. Usaria `display: flex` no contêiner da galeria, `flex-wrap: wrap` para permitir a quebra de linha e `justify-content: space-between` para distribuir o espaço entre elas. Assim, o layout se ajustaria automaticamente ao tamanho da tela.</p>
+  </section>
+</body>
+</html>
